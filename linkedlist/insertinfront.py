@@ -21,9 +21,6 @@ class Linkedlist:
             new_node.next = self.head
             self.head = new_node
 
-
-
-
 if __name__ == "__main__":
     sll = Linkedlist()
     sll.head = Node(3)
